@@ -32,7 +32,7 @@ public class @GameControls : IInputActionCollection, IDisposable
                     ""id"": ""614a6638-e007-42d6-a756-b3f03cb6299c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Throw"",
@@ -40,7 +40,7 @@ public class @GameControls : IInputActionCollection, IDisposable
                     ""id"": ""f8f72a8c-dabb-485a-972c-0bd3508a5665"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Jump"",
@@ -48,7 +48,7 @@ public class @GameControls : IInputActionCollection, IDisposable
                     ""id"": ""2b67a1dd-8617-44f8-a087-56e533f7bb06"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Dash"",
@@ -56,7 +56,7 @@ public class @GameControls : IInputActionCollection, IDisposable
                     ""id"": ""9bfe975b-21f0-4b76-9a69-fbe0c3bec730"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -140,7 +140,7 @@ public class @GameControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""25dc3c07-c522-480a-b97f-0b5467b2ca29"",
-                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -207,6 +207,17 @@ public class @GameControls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""5b37f768-0fa1-45b3-948e-27eb126fde26"",
                     ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f1145572-551c-46b3-9c75-fd7e4861fb81"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
