@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 114231493902538710}
   - component: {fileID: 114435281327171648}
   - component: {fileID: 114145887554720856}
+  - component: {fileID: 540201687981359221}
   - component: {fileID: 212971026275759962}
   - component: {fileID: 95975118031919256}
   - component: {fileID: 50738830109512580}
@@ -163,6 +164,37 @@ MonoBehaviour:
   controller: {fileID: 114231493902538710}
   animator: {fileID: 95975118031919256}
   runSpeed: 40
+--- !u!114 &540201687981359221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377240496476148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4d9af6c3e3ac04baa2e258c989ad6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  numOfHearts: 5
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullHeart: {fileID: 21300000, guid: 2bafbbbae74ef704689f692956dc1c95, type: 3}
+  emptyHeart: {fileID: 21300000, guid: a1c1b7e09d04bb14d88aa10f05723a75, type: 3}
 --- !u!212 &212971026275759962
 SpriteRenderer:
   m_ObjectHideFlags: 0
